@@ -6,15 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.wangly.newsinfo.activity.MainActivity">
 
-    <include
-        android:id="@+id/public_title"
-        layout="@layout/layout_public_title"></include>
-
     <TextView
         android:id="@+id/tv_info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/public_title" />
+         />
 
 
     <Button
